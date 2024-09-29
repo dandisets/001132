@@ -5,7 +5,7 @@
 about: []
 access:
 - schemaKey: AccessRequirements
-  status: dandi:EmbargoedAccess
+  status: dandi:OpenAccess
 assetsSummary:
   approach:
   - name: electrophysiological approach
@@ -19,9 +19,9 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: surgical technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 184625738176
-  numberOfFiles: 67
-  numberOfSubjects: 67
+  numberOfBytes: 192373252150
+  numberOfFiles: 69
+  numberOfSubjects: 69
   schemaKey: AssetsSummary
   species:
   - identifier: http://purl.obolibrary.org/obo/NCBITaxon_9606
@@ -30,16 +30,73 @@ assetsSummary:
   variableMeasured:
   - ElectricalSeries
   - ElectrodeGroup
-citation: Multimodal evaluation of network activity and optogenetic  interventions
-  in human hippocampal slices (2024). (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/001132/draft
+citation: Andrews, John P.; Geng, Jinghui; Voitiuk, Kateryna (2024) Multimodal evaluation
+  of network activity and optogenetic  interventions in human hippocampal slices (Version
+  draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/001132/draft
 contributor:
 - awardNumber: 5 RM1 HG 011543-03
   name: National Institutes of Health (NIH)
   roleName:
   - dcite:Funder
   schemaKey: Organization
+- email: John.Andrews@ucsf.edu
+  identifier: 0000-0002-8025-1525
+  includeInCitation: true
+  name: Andrews, John P.
+  roleName:
+  - dcite:Researcher
+  - dcite:Author
+  - dcite:ContactPerson
+  schemaKey: Person
+- email: jgeng2@ucsc.edu
+  identifier: 0000-0002-3431-9568
+  includeInCitation: true
+  name: Geng, Jinghui
+  roleName:
+  - dcite:Author
+  - dcite:Researcher
+  schemaKey: Person
+- email: kvoitiuk@ucsc.edu
+  identifier: 0000-0002-6392-5188
+  includeInCitation: true
+  name: Voitiuk, Kateryna
+  roleName:
+  - dcite:Author
+  - dcite:Researcher
+  schemaKey: Person
+- email: tomasz.nowakowski@ucsf.edu
+  identifier: 0000-0003-2345-4964
+  includeInCitation: false
+  name: Nowakowski, Tomasz J.
+  roleName:
+  - dcite:Author
+  - dcite:ContactPerson
+  - dcite:FundingAcquisition
+  - dcite:Investigation
+  - dcite:Supervision
+  schemaKey: Person
+- email: mteodore@ucsc.edu
+  includeInCitation: false
+  name: Teodorescu, Mircea
+  roleName:
+  - dcite:Author
+  - dcite:ContactPerson
+  - dcite:Investigation
+  - dcite:FundingAcquisition
+  - dcite:Supervision
+  schemaKey: Person
+- email: edward.chang@ucsf.edu
+  includeInCitation: false
+  name: Chang, Edward F.
+  roleName:
+  - dcite:Author
+  - dcite:ContactPerson
+  - dcite:Investigation
+  - dcite:FundingAcquisition
+  - dcite:Supervision
+  schemaKey: Person
 dateCreated: '2024-08-02T00:38:33.938905+00:00'
-description: Data accompanying manuscript by Andrews, Geng, Voitiuk, et al. 2024
+description: Data accompanying manuscript by Andrews, Geng, Voitiuk, et al. 2024.
 ethicsApproval: []
 id: DANDI:001132/draft
 identifier: DANDI:001132
@@ -48,6 +105,12 @@ keywords:
 - slice
 - HD-MEA
 - optogenetics
+- epilepsy
+- epileptiform activity
+- human hippocampus
+- responsive neuromodulation
+- AAV
+- gene therapy
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
@@ -55,7 +118,14 @@ manifestLocation:
 name: Multimodal evaluation of network activity and optogenetic  interventions in
   human hippocampal slices
 protocol: []
-relatedResource: []
+relatedResource:
+- identifier: ''
+  name: Supplementary code and other data
+  relation: dcite:HasPart
+  repository: GitHub
+  resourceType: dcite:Other
+  schemaKey: Resource
+  url: https://github.com/braingeneers/AndrewsGengVoitiukEtAl_SourceCode
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.8
