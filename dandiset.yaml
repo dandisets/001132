@@ -35,6 +35,7 @@ citation: Andrews, John P.; Geng, Jinghui; Voitiuk, Kateryna (2024) Multimodal e
   draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/001132/draft
 contributor:
 - awardNumber: 5 RM1 HG 011543-03
+  includeInCitation: false
   name: National Institutes of Health (NIH)
   roleName:
   - dcite:Funder
@@ -56,7 +57,8 @@ contributor:
   - dcite:Author
   - dcite:Researcher
   schemaKey: Person
-- email: kvoitiuk@ucsc.edu
+- awardNumber: T32HG012344
+  email: kvoitiuk@ucsc.edu
   identifier: 0000-0002-6392-5188
   includeInCitation: true
   name: Voitiuk, Kateryna
@@ -64,7 +66,8 @@ contributor:
   - dcite:Author
   - dcite:Researcher
   schemaKey: Person
-- email: tomasz.nowakowski@ucsf.edu
+- awardNumber: R01NS123263
+  email: tomasz.nowakowski@ucsf.edu
   identifier: 0000-0003-2345-4964
   includeInCitation: false
   name: Nowakowski, Tomasz J.
@@ -95,6 +98,23 @@ contributor:
   - dcite:FundingAcquisition
   - dcite:Supervision
   schemaKey: Person
+- awardNumber: 5R25NS070680-13
+  includeInCitation: false
+  name: National Institute of Neurological Disorders and Stroke, National Institutes
+    of Health
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- awardNumber: UF1MH130700
+  includeInCitation: false
+  name: NIH Brain Initiative
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- awardNumber: '2034037'
+  includeInCitation: false
+  name: NSF
+  schemaKey: Organization
 dateCreated: '2024-08-02T00:38:33.938905+00:00'
 description: Data accompanying manuscript by Andrews, Geng, Voitiuk, et al. 2024.
 ethicsApproval: []
