@@ -2,7 +2,11 @@
 # It can be edited online at https://dandiarchive.org/dandiset/001132
 # and obtained from the dandiarchive.
 '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.8/context.json
-about: []
+about:
+- name: epilepsy
+  schemaKey: Disorder
+- name: hippocampus
+  schemaKey: Anatomy
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
@@ -30,16 +34,10 @@ assetsSummary:
   variableMeasured:
   - ElectricalSeries
   - ElectrodeGroup
-citation: Andrews, John P.; Geng, Jinghui; Voitiuk, Kateryna (2024) Multimodal evaluation
+citation: Andrews, John P.; Voitiuk, Kateryna; Geng, Jinghui (2024) Multimodal evaluation
   of network activity and optogenetic  interventions in human hippocampal slices (Version
   draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/001132/draft
 contributor:
-- awardNumber: 5 RM1 HG 011543-03
-  includeInCitation: false
-  name: National Institutes of Health (NIH)
-  roleName:
-  - dcite:Funder
-  schemaKey: Organization
 - email: John.Andrews@ucsf.edu
   identifier: 0000-0002-8025-1525
   includeInCitation: true
@@ -49,19 +47,29 @@ contributor:
   - dcite:Author
   - dcite:ContactPerson
   schemaKey: Person
-- email: jgeng2@ucsc.edu
-  identifier: 0000-0002-3431-9568
-  includeInCitation: true
-  name: Geng, Jinghui
-  roleName:
-  - dcite:Author
-  - dcite:Researcher
-  schemaKey: Person
 - awardNumber: T32HG012344
   email: kvoitiuk@ucsc.edu
   identifier: 0000-0002-6392-5188
   includeInCitation: true
   name: Voitiuk, Kateryna
+  roleName:
+  - dcite:Author
+  - dcite:Researcher
+  schemaKey: Person
+- email: mteodore@ucsc.edu
+  includeInCitation: false
+  name: Teodorescu, Mircea
+  roleName:
+  - dcite:Author
+  - dcite:ContactPerson
+  - dcite:Investigation
+  - dcite:FundingAcquisition
+  - dcite:Supervision
+  schemaKey: Person
+- email: jgeng2@ucsc.edu
+  identifier: 0000-0002-3431-9568
+  includeInCitation: true
+  name: Geng, Jinghui
   roleName:
   - dcite:Author
   - dcite:Researcher
@@ -78,16 +86,13 @@ contributor:
   - dcite:Investigation
   - dcite:Supervision
   schemaKey: Person
-- email: mteodore@ucsc.edu
+- awardNumber: 5R25NS070680-13
   includeInCitation: false
-  name: Teodorescu, Mircea
+  name: National Institute of Neurological Disorders and Stroke, National Institutes
+    of Health
   roleName:
-  - dcite:Author
-  - dcite:ContactPerson
-  - dcite:Investigation
-  - dcite:FundingAcquisition
-  - dcite:Supervision
-  schemaKey: Person
+  - dcite:Funder
+  schemaKey: Organization
 - email: edward.chang@ucsf.edu
   includeInCitation: false
   name: Chang, Edward F.
@@ -98,13 +103,6 @@ contributor:
   - dcite:FundingAcquisition
   - dcite:Supervision
   schemaKey: Person
-- awardNumber: 5R25NS070680-13
-  includeInCitation: false
-  name: National Institute of Neurological Disorders and Stroke, National Institutes
-    of Health
-  roleName:
-  - dcite:Funder
-  schemaKey: Organization
 - awardNumber: UF1MH130700
   includeInCitation: false
   name: NIH Brain Initiative
@@ -114,6 +112,12 @@ contributor:
 - awardNumber: '2034037'
   includeInCitation: false
   name: NSF
+  schemaKey: Organization
+- awardNumber: HG011543
+  includeInCitation: false
+  name: National Institutes of Health (NIH)
+  roleName:
+  - dcite:Funder
   schemaKey: Organization
 dateCreated: '2024-08-02T00:38:33.938905+00:00'
 description: Data accompanying manuscript by Andrews, Geng, Voitiuk, et al. 2024.
@@ -139,6 +143,14 @@ name: Multimodal evaluation of network activity and optogenetic  interventions i
   human hippocampal slices
 protocol: []
 relatedResource:
+- identifier: https://doi.org/10.1038/s41593-024-01782-5
+  name: Multimodal evaluation of network activity and optogenetic interventions in
+    human hippocampal slices
+  relation: dcite:IsPublishedIn
+  repository: Nature Neuroscience
+  resourceType: dcite:JournalArticle
+  schemaKey: Resource
+  url: https://www.nature.com/articles/s41593-024-01782-5
 - identifier: ''
   name: Supplementary code and other data
   relation: dcite:HasPart
