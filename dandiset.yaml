@@ -40,7 +40,7 @@ citation: Andrews, John P.; Geng, Jinghui; Voitiuk, Kateryna; Elliott, Matthew A
   Larson, H. Hanh; Ehrlich, Drew; Auguste, Kurtis I.; Salama, Sofie R.; Sohal, Vikaas;
   Sharf, Tal; Haussler, David; Cadwell, Cathryn; Schaffer, David; Chang, Edward F.;
   Teodorescu, Mircea; Nowakowski, Tomasz J. (2024) Multimodal evaluation of network
-  activity and optogenetic  interventions in human hippocampal slices (Version draft)
+  activity and optogenetic interventions in human hippocampal slices (Version draft)
   [Data set]. DANDI archive. https://dandiarchive.org/dandiset/001132/draft
 contributor:
 - email: John.Andrews@ucsf.edu
@@ -76,7 +76,8 @@ contributor:
   - dcite:Author
   - dcite:Researcher
   schemaKey: Person
-- includeInCitation: true
+- identifier: 0000-0001-7029-089X
+  includeInCitation: true
   name: Shin, David
   roleName:
   - dcite:Author
@@ -122,13 +123,15 @@ contributor:
   - dcite:Author
   - dcite:Researcher
   schemaKey: Person
-- includeInCitation: true
+- identifier: 0000-0001-7434-1447
+  includeInCitation: true
   name: Sevetson, Jessica L.
   roleName:
   - dcite:Author
   - dcite:Researcher
   schemaKey: Person
-- includeInCitation: true
+- identifier: 0000-0001-7562-2849
+  includeInCitation: true
   name: Rivera de Jesús, Julio A.
   roleName:
   - dcite:Author
@@ -147,13 +150,15 @@ contributor:
   - dcite:Author
   - dcite:Researcher
   schemaKey: Person
-- includeInCitation: true
+- identifier: 0000-0001-6794-6800
+  includeInCitation: true
   name: Ehrlich, Drew
   roleName:
   - dcite:Author
   - dcite:Researcher
   schemaKey: Person
-- includeInCitation: true
+- identifier: 0000-0002-1607-0818
+  includeInCitation: true
   name: Auguste, Kurtis I.
   roleName:
   - dcite:Author
@@ -162,10 +167,17 @@ contributor:
 - identifier: 0000-0001-6999-7193
   includeInCitation: true
   name: Salama, Sofie R.
+  roleName:
+  - dcite:Author
+  - dcite:FundingAcquisition
+  - dcite:Supervision
   schemaKey: Person
 - identifier: 0000-0002-2238-4186
   includeInCitation: true
   name: Sohal, Vikaas
+  roleName:
+  - dcite:Author
+  - dcite:Researcher
   schemaKey: Person
 - identifier: 0000-0002-7899-2818
   includeInCitation: true
@@ -173,6 +185,7 @@ contributor:
   roleName:
   - dcite:Author
   - dcite:Researcher
+  - dcite:Supervision
   schemaKey: Person
 - identifier: 0000-0003-1533-4575
   includeInCitation: true
@@ -180,6 +193,8 @@ contributor:
   roleName:
   - dcite:Author
   - dcite:Researcher
+  - dcite:FundingAcquisition
+  - dcite:Supervision
   schemaKey: Person
 - awardNumber: ''
   identifier: 0000-0003-1963-8285
@@ -188,6 +203,7 @@ contributor:
   roleName:
   - dcite:Author
   - dcite:Researcher
+  - dcite:Supervision
   schemaKey: Person
 - identifier: 0000-0002-9625-0121
   includeInCitation: true
@@ -195,14 +211,14 @@ contributor:
   roleName:
   - dcite:Author
   - dcite:Researcher
+  - dcite:Supervision
   schemaKey: Person
-- email: ''
+- identifier: 0000-0003-2480-4700
   includeInCitation: true
   name: Chang, Edward F.
   roleName:
   - dcite:Author
   - dcite:Investigation
-  - dcite:FundingAcquisition
   - dcite:Supervision
   schemaKey: Person
 - email: mteodore@ucsc.edu
@@ -228,8 +244,58 @@ contributor:
   - dcite:Investigation
   - dcite:Supervision
   schemaKey: Person
+- awardNumber: 5R25NS070680-13, UF1MH130700, R01NS123263, R01MH120295, T32HG012344,
+    K08NS126573, K12GM139185, LRP0000018281
+  includeInCitation: false
+  name: National Institutes of Health
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- awardNumber: 2034037, CNS-1730158, ACI-1540112, ACI-1541349, OAC-1826967
+  includeInCitation: false
+  name: National Science Foundation
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- awardNumber: SF 857
+  includeInCitation: false
+  name: Schmidt Futures Foundation
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- awardNumber: U01NS132353
+  includeInCitation: false
+  name: Weill Neurohub
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- awardNumber: ''
+  includeInCitation: false
+  name: Esther A & Joseph Klingenstein Fund
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- includeInCitation: false
+  name: 'Shurl and Kay Curci Foundation '
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- includeInCitation: false
+  name: Sontag Foundation
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- includeInCitation: false
+  name: William K. Bowes, Jr. Foundation
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
 dateCreated: '2024-08-02T00:38:33.938905+00:00'
-description: Data accompanying manuscript by Andrews, Geng, Voitiuk, et al. 2024.
+datePublished: '2024-11-19T18:01:56.099838+00:00'
+description: High-density microelectrode array (HD-MEA) recordings of human hippocampal
+  brain slices obtained from epilepsy patients, including optogenetic stimulus and
+  several hyperactivity-provoking conditions of culture medium. This data accompanies
+  the manuscript by Andrews, Geng, Voitiuk, et al. 2024.
 ethicsApproval: []
 id: DANDI:001132/draft
 identifier: DANDI:001132
@@ -248,9 +314,21 @@ license:
 - spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/001132/versions/draft/assets/
-name: Multimodal evaluation of network activity and optogenetic  interventions in
-  human hippocampal slices
+name: Multimodal evaluation of network activity and optogenetic interventions in human
+  hippocampal slices
 protocol: []
+publishedBy:
+  endDate: '2024-11-19T18:01:56.099838+00:00'
+  id: urn:uuid:d8ce0682-d822-43da-a668-7c576f7be9da
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2024-11-19T18:01:56.099838+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:0b4e402d-4888-4b65-9c3a-01dce454d216
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource:
 - identifier: https://doi.org/10.1038/s41593-024-01782-5
   name: Multimodal evaluation of network activity and optogenetic interventions in
@@ -267,6 +345,22 @@ relatedResource:
   resourceType: dcite:Other
   schemaKey: Resource
   url: https://github.com/braingeneers/AndrewsGengVoitiukEtAl_SourceCode
+- identifier: https://doi.org/10.1101/2024.11.14.623530
+  name: Multiscale Cloud-based Pipeline for Neuronal Electrophysiology Analysis and
+    Visualization
+  relation: dcite:Describes
+  repository: bioRxiv
+  resourceType: dcite:Preprint
+  schemaKey: Resource
+  url: https://www.biorxiv.org/content/10.1101/2024.11.14.623530v1
+- identifier: https://doi.org/10.1101/2024.11.13.623525
+  name: Pathological microcircuits initiate epileptiform events in patient hippocampal
+    slices
+  relation: dcite:Describes
+  repository: bioRxiv
+  resourceType: dcite:Preprint
+  schemaKey: Resource
+  url: https://www.biorxiv.org/content/10.1101/2024.11.13.623525v1
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.8
