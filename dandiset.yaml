@@ -40,8 +40,8 @@ citation: Andrews, John P.; Geng, Jinghui; Voitiuk, Kateryna; Elliott, Matthew A
   Larson, H. Hanh; Ehrlich, Drew; Auguste, Kurtis I.; Salama, Sofie R.; Sohal, Vikaas;
   Sharf, Tal; Haussler, David; Cadwell, Cathryn; Schaffer, David; Chang, Edward F.;
   Teodorescu, Mircea; Nowakowski, Tomasz J. (2024) Multimodal evaluation of network
-  activity and optogenetic interventions in human hippocampal slices (Version draft)
-  [Data set]. DANDI archive. https://dandiarchive.org/dandiset/001132/draft
+  activity and optogenetic interventions in human hippocampal slices (Version 0.241119.1801)
+  [Data set]. DANDI archive. https://doi.org/10.48324/dandi.001132/0.241119.1801
 contributor:
 - email: John.Andrews@ucsf.edu
   identifier: 0000-0002-8025-1525
@@ -296,8 +296,9 @@ description: High-density microelectrode array (HD-MEA) recordings of human hipp
   brain slices obtained from epilepsy patients, including optogenetic stimulus and
   several hyperactivity-provoking conditions of culture medium. This data accompanies
   the manuscript by Andrews, Geng, Voitiuk, et al. 2024.
+doi: 10.48324/dandi.001132/0.241119.1801
 ethicsApproval: []
-id: DANDI:001132/draft
+id: DANDI:001132/0.241119.1801
 identifier: DANDI:001132
 keywords:
 - hippocampus
@@ -313,7 +314,7 @@ keywords:
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/001132/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/001132/0.241119.1801/assets.yaml
 name: Multimodal evaluation of network activity and optogenetic interventions in human
   hippocampal slices
 protocol: []
@@ -365,6 +366,6 @@ repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.8
 studyTarget: []
-url: https://dandiarchive.org/dandiset/001132/draft
-version: draft
+url: https://dandiarchive.org/dandiset/001132/0.241119.1801
+version: 0.241119.1801
 wasGeneratedBy: []
