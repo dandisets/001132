@@ -34,9 +34,14 @@ assetsSummary:
   variableMeasured:
   - ElectricalSeries
   - ElectrodeGroup
-citation: Andrews, John P.; Voitiuk, Kateryna; Geng, Jinghui (2024) Multimodal evaluation
-  of network activity and optogenetic  interventions in human hippocampal slices (Version
-  draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/001132/draft
+citation: Andrews, John P.; Geng, Jinghui; Voitiuk, Kateryna; Elliott, Matthew A.
+  T.; Shin, David; Robbins, Ash; Spaeth, Alex; Wang, Albert; Li, Lin; Solis, Daniel;
+  Keefe, Matthew G.; Sevetson, Jessica L.; Rivera de Jesús, Julio A.; Donohue, Kevin;
+  Larson, H. Hanh; Ehrlich, Drew; Auguste, Kurtis I.; Salama, Sofie R.; Sohal, Vikaas;
+  Sharf, Tal; Haussler, David; Cadwell, Cathryn; Schaffer, David; Chang, Edward F.;
+  Teodorescu, Mircea; Nowakowski, Tomasz J. (2024) Multimodal evaluation of network
+  activity and optogenetic  interventions in human hippocampal slices (Version draft)
+  [Data set]. DANDI archive. https://dandiarchive.org/dandiset/001132/draft
 contributor:
 - email: John.Andrews@ucsf.edu
   identifier: 0000-0002-8025-1525
@@ -47,25 +52,6 @@ contributor:
   - dcite:Author
   - dcite:ContactPerson
   schemaKey: Person
-- awardNumber: T32HG012344
-  email: kvoitiuk@ucsc.edu
-  identifier: 0000-0002-6392-5188
-  includeInCitation: true
-  name: Voitiuk, Kateryna
-  roleName:
-  - dcite:Author
-  - dcite:Researcher
-  schemaKey: Person
-- email: mteodore@ucsc.edu
-  includeInCitation: false
-  name: Teodorescu, Mircea
-  roleName:
-  - dcite:Author
-  - dcite:ContactPerson
-  - dcite:Investigation
-  - dcite:FundingAcquisition
-  - dcite:Supervision
-  schemaKey: Person
 - email: jgeng2@ucsc.edu
   identifier: 0000-0002-3431-9568
   includeInCitation: true
@@ -74,10 +60,166 @@ contributor:
   - dcite:Author
   - dcite:Researcher
   schemaKey: Person
-- awardNumber: R01NS123263
+- awardNumber: ''
+  email: kvoitiuk@ucsc.edu
+  identifier: 0000-0002-6392-5188
+  includeInCitation: true
+  name: Voitiuk, Kateryna
+  roleName:
+  - dcite:Author
+  - dcite:Researcher
+  schemaKey: Person
+- identifier: 0000-0001-6313-6819
+  includeInCitation: true
+  name: Elliott, Matthew A. T.
+  roleName:
+  - dcite:Author
+  - dcite:Researcher
+  schemaKey: Person
+- includeInCitation: true
+  name: Shin, David
+  roleName:
+  - dcite:Author
+  - dcite:Researcher
+  schemaKey: Person
+- identifier: 0000-0002-5556-8547
+  includeInCitation: true
+  name: Robbins, Ash
+  roleName:
+  - dcite:Author
+  - dcite:Researcher
+  schemaKey: Person
+- identifier: 0000-0003-0702-3945
+  includeInCitation: true
+  name: Spaeth, Alex
+  roleName:
+  - dcite:Author
+  - dcite:Researcher
+  schemaKey: Person
+- identifier: 0000-0001-5989-4617
+  includeInCitation: true
+  name: Wang, Albert
+  roleName:
+  - dcite:Author
+  - dcite:Researcher
+  schemaKey: Person
+- includeInCitation: true
+  name: Li, Lin
+  roleName:
+  - dcite:Author
+  - dcite:Researcher
+  schemaKey: Person
+- includeInCitation: true
+  name: Solis, Daniel
+  roleName:
+  - dcite:Author
+  - dcite:Researcher
+  schemaKey: Person
+- identifier: 0000-0002-2477-2975
+  includeInCitation: true
+  name: Keefe, Matthew G.
+  roleName:
+  - dcite:Author
+  - dcite:Researcher
+  schemaKey: Person
+- includeInCitation: true
+  name: Sevetson, Jessica L.
+  roleName:
+  - dcite:Author
+  - dcite:Researcher
+  schemaKey: Person
+- includeInCitation: true
+  name: Rivera de Jesús, Julio A.
+  roleName:
+  - dcite:Author
+  - dcite:Researcher
+  schemaKey: Person
+- identifier: 0000-0002-4237-5957
+  includeInCitation: true
+  name: Donohue, Kevin
+  roleName:
+  - dcite:Author
+  - dcite:Researcher
+  schemaKey: Person
+- includeInCitation: true
+  name: Larson, H. Hanh
+  roleName:
+  - dcite:Author
+  - dcite:Researcher
+  schemaKey: Person
+- includeInCitation: true
+  name: Ehrlich, Drew
+  roleName:
+  - dcite:Author
+  - dcite:Researcher
+  schemaKey: Person
+- includeInCitation: true
+  name: Auguste, Kurtis I.
+  roleName:
+  - dcite:Author
+  - dcite:Researcher
+  schemaKey: Person
+- identifier: 0000-0001-6999-7193
+  includeInCitation: true
+  name: Salama, Sofie R.
+  schemaKey: Person
+- identifier: 0000-0002-2238-4186
+  includeInCitation: true
+  name: Sohal, Vikaas
+  schemaKey: Person
+- identifier: 0000-0002-7899-2818
+  includeInCitation: true
+  name: Sharf, Tal
+  roleName:
+  - dcite:Author
+  - dcite:Researcher
+  schemaKey: Person
+- identifier: 0000-0003-1533-4575
+  includeInCitation: true
+  name: Haussler, David
+  roleName:
+  - dcite:Author
+  - dcite:Researcher
+  schemaKey: Person
+- awardNumber: ''
+  identifier: 0000-0003-1963-8285
+  includeInCitation: true
+  name: Cadwell, Cathryn
+  roleName:
+  - dcite:Author
+  - dcite:Researcher
+  schemaKey: Person
+- identifier: 0000-0002-9625-0121
+  includeInCitation: true
+  name: Schaffer, David
+  roleName:
+  - dcite:Author
+  - dcite:Researcher
+  schemaKey: Person
+- email: ''
+  includeInCitation: true
+  name: Chang, Edward F.
+  roleName:
+  - dcite:Author
+  - dcite:Investigation
+  - dcite:FundingAcquisition
+  - dcite:Supervision
+  schemaKey: Person
+- email: mteodore@ucsc.edu
+  identifier: 0000-0001-7085-5248
+  includeInCitation: true
+  name: Teodorescu, Mircea
+  roleName:
+  - dcite:Author
+  - dcite:ContactPerson
+  - dcite:Investigation
+  - dcite:FundingAcquisition
+  - dcite:Supervision
+  schemaKey: Person
+- awardNumber: ''
   email: tomasz.nowakowski@ucsf.edu
   identifier: 0000-0003-2345-4964
-  includeInCitation: false
+  includeInCitation: true
   name: Nowakowski, Tomasz J.
   roleName:
   - dcite:Author
@@ -86,39 +228,6 @@ contributor:
   - dcite:Investigation
   - dcite:Supervision
   schemaKey: Person
-- awardNumber: 5R25NS070680-13
-  includeInCitation: false
-  name: National Institute of Neurological Disorders and Stroke, National Institutes
-    of Health
-  roleName:
-  - dcite:Funder
-  schemaKey: Organization
-- email: edward.chang@ucsf.edu
-  includeInCitation: false
-  name: Chang, Edward F.
-  roleName:
-  - dcite:Author
-  - dcite:ContactPerson
-  - dcite:Investigation
-  - dcite:FundingAcquisition
-  - dcite:Supervision
-  schemaKey: Person
-- awardNumber: UF1MH130700
-  includeInCitation: false
-  name: NIH Brain Initiative
-  roleName:
-  - dcite:Funder
-  schemaKey: Organization
-- awardNumber: '2034037'
-  includeInCitation: false
-  name: NSF
-  schemaKey: Organization
-- awardNumber: HG011543
-  includeInCitation: false
-  name: National Institutes of Health (NIH)
-  roleName:
-  - dcite:Funder
-  schemaKey: Organization
 dateCreated: '2024-08-02T00:38:33.938905+00:00'
 description: Data accompanying manuscript by Andrews, Geng, Voitiuk, et al. 2024.
 ethicsApproval: []
