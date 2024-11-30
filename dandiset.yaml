@@ -244,8 +244,8 @@ contributor:
   - dcite:Investigation
   - dcite:Supervision
   schemaKey: Person
-- awardNumber: 5R25NS070680-13, UF1MH130700, R01NS123263, R01MH120295, T32HG012344,
-    K08NS126573, K12GM139185, LRP0000018281
+- awardNumber: 5R25NS070680-13, UF1MH130700, R01NS123263, R01MH120295, 5RM1HG011543,
+    T32HG012344, K08NS126573, K12GM139185, LRP0000018281
   includeInCitation: false
   name: National Institutes of Health
   roleName:
@@ -291,7 +291,6 @@ contributor:
   - dcite:Funder
   schemaKey: Organization
 dateCreated: '2024-08-02T00:38:33.938905+00:00'
-datePublished: '2024-11-19T18:01:56.099838+00:00'
 description: High-density microelectrode array (HD-MEA) recordings of human hippocampal
   brain slices obtained from epilepsy patients, including optogenetic stimulus and
   several hyperactivity-provoking conditions of culture medium. This data accompanies
@@ -317,18 +316,6 @@ manifestLocation:
 name: Multimodal evaluation of network activity and optogenetic interventions in human
   hippocampal slices
 protocol: []
-publishedBy:
-  endDate: '2024-11-19T18:01:56.099838+00:00'
-  id: urn:uuid:d8ce0682-d822-43da-a668-7c576f7be9da
-  name: DANDI publish
-  schemaKey: PublishActivity
-  startDate: '2024-11-19T18:01:56.099838+00:00'
-  wasAssociatedWith:
-  - id: urn:uuid:0b4e402d-4888-4b65-9c3a-01dce454d216
-    identifier: RRID:SCR_017571
-    name: DANDI API
-    schemaKey: Software
-    version: 0.1.0
 relatedResource:
 - identifier: https://doi.org/10.1038/s41593-024-01782-5
   name: Multimodal evaluation of network activity and optogenetic interventions in
