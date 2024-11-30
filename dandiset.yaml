@@ -291,6 +291,7 @@ contributor:
   - dcite:Funder
   schemaKey: Organization
 dateCreated: '2024-08-02T00:38:33.938905+00:00'
+datePublished: '2024-11-30T19:03:32.497793+00:00'
 description: High-density microelectrode array (HD-MEA) recordings of human hippocampal
   brain slices obtained from epilepsy patients, including optogenetic stimulus and
   several hyperactivity-provoking conditions of culture medium. This data accompanies
@@ -316,6 +317,18 @@ manifestLocation:
 name: Multimodal evaluation of network activity and optogenetic interventions in human
   hippocampal slices
 protocol: []
+publishedBy:
+  endDate: '2024-11-30T19:03:32.497793+00:00'
+  id: urn:uuid:276890db-0dea-4620-9e0b-e11751460075
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2024-11-30T19:03:32.497793+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:4c7efb26-9f8d-40e7-98f0-947cd857cade
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource:
 - identifier: https://doi.org/10.1038/s41593-024-01782-5
   name: Multimodal evaluation of network activity and optogenetic interventions in
